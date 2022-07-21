@@ -1,0 +1,23 @@
+#links{
+    background-color: greenyellow;
+    padding:2px;
+    margin:2px;
+}
+#google-logo-area{
+    background-color: cyan;
+    height: 130px;;
+    width: 100%;    
+    margin-top: ;
+    text-align: center;
+}
+#google-logo{
+    margin-top: 10px;
+}
+#submit-button-area{
+    background-color: yellowgreen;
+    height: fit-content;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+}
+#submit-button-area
