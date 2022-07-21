@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google</title>
     </head>
+    <style>
+        #links{
+            background-color: blue;
+            padding:2px;
+            margin:2px;
+        }
+        #google-logo{
+            background-color: cyan;
+            height: 150px;;
+            width: 100%;
+            margin-top: auto;
+            text-align: center;
+        }
+        #submit{
+            background-color: yellow;
+            height: fit-content;
+            margin-top: auto;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id="links" style="display:flex ;justify-content:flex-end">
+            <a href="https://www.google.com/advanced_search">Advanced Search</a>
+            &nbsp&nbsp&nbsp
+            <a href="https://images.google.com">Image Search</a>
+        </div>
+        <br>
+        <div id="google-logo">
+            <img src="img/logo.png" height="92" width="272" margin-top="58">
+        </div>
+        <div id="submit">
+            <form action="https://google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
+     
+     
+        
     </body>
 </html>
